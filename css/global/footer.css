@@ -44,12 +44,12 @@
 }
 
 @media (max-width: 800px) {
-  .footer img {
+  .footer > a {
     display: none;
   }
 
   .footer {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
