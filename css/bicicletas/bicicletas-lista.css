@@ -17,6 +17,9 @@
   overflow-x: auto;
 }
 
+#bicicleta .bicicletas-lista h2 {
+  padding-top: 60px;
+}
 .bicicletas-lista a {
   display: block;
 }
@@ -38,7 +41,7 @@
   width: 12px;
   margin-right: 8px;
   background-color: var(--cor-p1);
-  transition: witdh 0.2s;
+  transition: width 0.2s;
 }
 
 .bicicletas-lista a:hover h3::before {
