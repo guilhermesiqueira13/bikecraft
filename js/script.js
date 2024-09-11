@@ -20,7 +20,6 @@ function ativarProduto(parametros) {
 parametros.forEach(ativarProduto);
 
 // Perguntas Frequentes
-
 const perguntas = document.querySelectorAll(".perguntas button");
 function ativarPergunta(event) {
   const pergunta = event.currentTarget;
@@ -56,7 +55,6 @@ function eventosGaleria(img) {
 galeria.forEach(eventosGaleria);
 
 // Aninação
-
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
